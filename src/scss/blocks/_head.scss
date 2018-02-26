@@ -4,6 +4,14 @@
   margin: $spacing-vertical 0;
   border-radius: $border-radius;
 
+  &__logo {
+    width: 10%;
+    height: 10%;
+    border-radius: $border-radius;
+    float: left;
+    padding: 20px;
+  }
+
   &__list {
     height: 150px;
     line-height: 150px;
