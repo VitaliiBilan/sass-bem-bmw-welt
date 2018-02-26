@@ -1,0 +1,21 @@
+body {
+  background:$color-background;
+  color:$color-text;
+  font-family:'Source Sans Pro', sans-serif;
+  margin:auto;
+  width:80%;
+}
+
+h1, h2, h3 {
+  font-family:'Bitter', serif;
+  font-weight:700;
+}
+
+a:link, a:visited {
+  color:#2BA6CB;
+  text-decoration:none;
+}
+
+a:hover, a:active {
+  text-decoration:underline;
+}

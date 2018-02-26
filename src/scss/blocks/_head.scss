@@ -1,0 +1,19 @@
+.head {
+  background:#fff;
+  border-left:8px solid #2BA6CB;
+  margin:$spacing-vertical 0;
+  border-radius: $border-radius;
+
+  &__list {
+    height:150px;
+    line-height:150px;
+    list-style:none;
+    margin:0;
+    text-align:right;
+
+    &__item {
+      display:inline;
+      margin-right:$spacing-horizontal;
+    }
+  }
+}
